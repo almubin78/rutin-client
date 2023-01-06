@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
-import DatePic from "./DatePic";
 import Error from "./Error";
 import Main from "./Main";
+import RoutineCard from "./RoutineCard/RoutineCard";
 
 export const router = createBrowserRouter([
     {
@@ -10,7 +10,7 @@ export const router = createBrowserRouter([
         children:[
             {
                 path:'/createRoutine',
-                element:<DatePic></DatePic>
+                element:<RoutineCard></RoutineCard>
             }
         ]
     },

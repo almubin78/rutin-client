@@ -5,10 +5,7 @@ function App() {
 
   return (
     <div className="container">
-      <RouterProvider router={router}>
-    
-      </RouterProvider>
-      
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
